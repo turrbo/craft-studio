@@ -1,16 +1,56 @@
-# React + Vite
+# Craft Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Convert images to cross-stitch patterns and download as PDF
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React, Vite.
 
-## React Compiler
+## What it includes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Bulk Mode
+- Craft Selector
+- Single Mode
 
-## Expanding the ESLint configuration
+## Scripts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Command | Description |
+|---|---|
+| `npm run dev` | Run the local development server: `vite` |
+| `npm run build` | Create a production build: `vite build` |
+| `npm run lint` | Run lint checks: `eslint .` |
+| `npm run preview` | Preview the production build locally: `vite preview` |
+
+## Local setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Repository layout
+
+```text
+.github/
+public/
+  favicon.svg
+  icons.svg
+src/
+  assets/
+  components/
+  utils/
+  App.css
+  App.jsx
+  index.css
+  main.jsx
+.gitignore
+eslint.config.js
+index.html
+package-lock.json
+package.json
+vite.config.js
+```
+
+## Notes
+
+This README is generated from the current repository structure and package metadata so the GitHub front page reflects the actual project rather than a starter template.
